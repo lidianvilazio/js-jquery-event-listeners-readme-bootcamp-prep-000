@@ -4,6 +4,7 @@ $(document).ready(function(){
 
 // call functions here
 getIt()
+frameIt()
 });
 
 function getIt() {
@@ -16,9 +17,7 @@ function getIt() {
 
 
 function frameIt() {
-  $('imag').on('load', function() {
-
-  })
+  $('imag').load('tasty')
 }
 
 // Define a function frameIt that does not accept

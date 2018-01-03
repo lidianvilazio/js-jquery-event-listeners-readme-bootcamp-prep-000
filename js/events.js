@@ -7,7 +7,7 @@ getIt()
 });
 
 function getIt() {
-  S(document).on('click', function(key) {
+  $(document).on('click', function(key) {
     if(key) {
       alert("Hey!")
     }

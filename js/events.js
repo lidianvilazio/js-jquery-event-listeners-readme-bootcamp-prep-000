@@ -24,6 +24,6 @@ function frameIt() {
 
 function pressIt() {
   $(document).on('keydown', function(key) {
-    alert('G')
+    window.alert('G')
   })
 }

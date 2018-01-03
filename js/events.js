@@ -17,7 +17,9 @@ function getIt() {
 
 
 function frameIt() {
-  $('img').load('tasty')
+  $('img').on('load', function() {
+    $('img').addClass('tasty')
+  })
 }
 
 // Define a function frameIt that does not accept
